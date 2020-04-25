@@ -30,11 +30,13 @@ Building images
 
 * Mysql container
 Access the db folder in the terminal and run
-docker build -t mysql -f.
+
+docker build -t mysql.
 
 * Node container
 Access the node folder in the terminal and run
-docker build -t node -f.
+
+docker build -t node .
 
 Running the Containers
 
