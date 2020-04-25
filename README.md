@@ -16,37 +16,42 @@ In this project it was used:
 ________________________________________________________________________________________________________________________________________________________________
 
 * Install the node
-https://nodejs.org/en/
+
+        https://nodejs.org/en/
 
 
 * Install the docker
-https://www.docker.com/products/docker-desktop
+
+        https://www.docker.com/products/docker-desktop
 
 * install the dependencies
 Access the part / node in the terminal and execute
-npm install
+
+        npm install
 
 Building images
 
 * Mysql container
 Access the db folder in the terminal and run
 
-docker build -t mysql .
+        docker build -t mysql .
 
 * Node container
 Access the node folder in the terminal and run
 
-docker build -t node .
+        docker build -t node .
 
 Running the Containers
 
 * Mysql container
 At the terminal run
-docker run -d --rm --name mysql-container mysql
+
+        docker run -d --rm --name mysql-container mysql
 
 * Node container
-At the terminal run
-docker run -d --rm --name node-container node
+At the terminal run 
+
+        docker run -d --rm --name node-container node
 
 
 Running the docker-compose
@@ -95,39 +100,47 @@ Nesse projeto foi utilizado:
 ________________________________________________________________________________________________________________________________
 
 * Instale o node
+
         https://nodejs.org/en/
 
 
 * Instale o docker
+
         https://www.docker.com/products/docker-desktop
 
 * instale as dependências
         Acesse a pasta node / no terminal e execute
+        
             npm install
 
 Construindo imagens
 
 * container Mysql
         Acesse a pasta db no terminal e execute
+        
             docker build -t mysql .
 
 * container Node
         Acesse a pasta node no terminal e execute
+        
             docker build -t node .
 
 Executando os Containers
 
  * container Mysql
         No terminal execute
+        
           docker run -d --rm --name mysql-container mysql
 
  * container Node
         No terminal execute
+        
             docker run -d --rm --name node-container node
 
 
 Executando o docker-compose
         No terminal execute
+        
             docker-compose up
 
 ________________________________________________________________________________________________________________________________
