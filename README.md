@@ -31,7 +31,7 @@ Building images
 * Mysql container
 Access the db folder in the terminal and run
 
-docker build -t mysql.
+docker build -t mysql .
 
 * Node container
 Access the node folder in the terminal and run
@@ -109,11 +109,11 @@ Construindo imagens
 
 * container Mysql
         Acesse a pasta db no terminal e execute
-            docker build -t mysql -f .
+            docker build -t mysql .
 
 * container Node
         Acesse a pasta node no terminal e execute
-            docker build -t node -f .
+            docker build -t node .
 
 Executando os Containers
 
